@@ -23,7 +23,7 @@ module.exports = class Market {
         let list = await (this._sdks[platform_].coins());
         coinList[platform_] = list;
       } catch (e) {
-        console.error(`market coins: ${e}`);
+        console.error(`market coins unexpected: ${e}`);
       }
     }
 

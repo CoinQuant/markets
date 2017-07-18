@@ -24,6 +24,7 @@ async function ticker() {
 }
 
 getCoins();
+
 setTimeout(function () {
     ticker();
 }, 2000);

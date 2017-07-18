@@ -1,18 +1,6 @@
-# node-market
+'use strict';
 
-主流平台行情SDK
-
-## install
-
-```shell
-npm i git+https://github.com/SuperDBJ/markets.git -S
-```
-
-## Quick Start
-
-```shell
-const Market = require('markets');
-
+const Market = require('../index.js');
 const mk_ = new Market();
 
 async function getCoins() {
@@ -27,4 +15,3 @@ getCoins();
 setTimeout(function () {
     ticker();
 }, 2000);
-```

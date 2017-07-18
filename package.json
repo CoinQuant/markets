@@ -1,0 +1,36 @@
+{
+  "name": "markets",
+  "version": "1.0.0",
+  "description": "market sdk",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Fuck and wait ...\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperDBJ/node-market.git"
+  },
+  "keywords": [
+    "market",
+    "sdk",
+    "yunbi",
+    "huobi",
+    "bter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperDBJ/node-market/issues"
+  },
+  "homepage": "https://github.com/SuperDBJ/node-market#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-huobi": "git+https://github.com/SuperDBJ/node-huobi.git",
+    "node-yunbi": "git+https://github.com/SuperDBJ/node-yunbi.git",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

@@ -12,7 +12,7 @@ module.exports = {
         },
         huobi: {
             name: '火币',
-            suffix: 'cny'
+            suffix: ''
         }
     },
     TICKER_INFO: {

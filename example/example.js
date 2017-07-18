@@ -8,11 +8,12 @@ async function getCoins() {
 }
 
 async function ticker() {
-    console.log('ticker:', await mk_.ticker('etc', ['yunbi', 'huobi']));
+    console.log('ticker:', await mk_.ticker('etc', ['yunbi', 'huobi', 'bter']));
 }
 
-getCoins();
+async function run() {
+    await getCoins();
+    await ticker();
+}
 
-setTimeout(function () {
-    ticker();
-}, 2000);
+run();

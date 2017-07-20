@@ -30,6 +30,7 @@
     "lodash": "^4.17.4",
     "node-huobi": "git+https://github.com/SuperDBJ/node-huobi.git",
     "node-yunbi": "git+https://github.com/SuperDBJ/node-yunbi.git",
+    "node-jubi": "git+https://github.com/SuperDBJ/node-jubi.git",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   }

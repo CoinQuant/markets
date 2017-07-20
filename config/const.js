@@ -11,7 +11,11 @@ module.exports = {
             suffix: '_cny'
         },
         huobi: {
-            name: '火币',
+            name: '火币网',
+            suffix: ''
+        },
+        jubi: {
+            name: '聚币网',
             suffix: ''
         }
     },

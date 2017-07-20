@@ -1,6 +1,6 @@
 # node-market
 
-主流平台行情SDK
+主流平台行情SDK, 当前支持聚币网、云币网、火币网、比特儿
 
 ## install
 
